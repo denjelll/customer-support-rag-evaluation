@@ -1,0 +1,198 @@
+Test ID,Category,Question,Ground Truth,Bot Output,Judge Evaluation
+TC-01,Direct Fact Retrieval,How long does a refund take if paid via QR Code or Virtual Account?,Within 1 business day (24 hours) directly to the in-app wallet balance.,"
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Question:** How long does a refund take if paid via QR Code or Virtual Account?
+   - **Role:** Official Customer Support AI assistant
+   - **Constraint:** Answer strictly based ONLY on the provided context. If not found, state explicitly: ""This information is not available in our official knowledge base."" Do NOT assume, infer, or hallucinate.
+
+2.  **Scan Context for Keywords:**
+   - Keywords: ""QR Code"", ""Virtual Account"", ""refund"", ""time"", ""how long""
+   - Context snippet: ""Transactions made via Virtual Account, Instant Bank Transfer, and QR Code will be refunded within 1 business day (24 hours) directly to the user's in-app wallet balance.""
+
+3.  **Extract Relevant Information:**
+   - Refund time for Virtual Account and QR Code: within 1 business day (24 hours).
+   - Destination: directly to the user's in-app wallet balance.
+
+4.  **Formulate Answer:**
+   - Must be direct, accurate, and strictly based on the context.
+   - Draft: Refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance.
+   - Check against constraints: Strictly based on context? Yes. Answers the question? Yes. No external info? Yes.
+
+5.  **Final Output Generation:** (Matches the draft)
+   ""Refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance.""✅
+   All constraints met. Ready. 
+   Output matches the response.✅
+   Proceeds. 
+   [Self-Correction/Verification during thought]
+   - Check exact wording in context: ""within 1 business day (24 hours) directly to the user's in-app wallet balance.""
+   - My draft matches this exactly.
+   - No extra fluff. Follows instructions.
+   - Output matches.✅
+   Proceeds. 
+   [Output Generation] -> ""Refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance."" (or similar direct phrasing)✅
+   All good. 
+   Output matches response. 
+   [Done.] 
+   *Self-Correction/Refinement during generation prep*: I will make it concise and direct as requested.
+   ""Based on our official policy, refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance."" -> This is good. Matches context exactly. No extra info. Follows constraints.✅
+   Output matches. 
+   Proceeds. 
+   [Final Check of the Prompt]: ""Helpful & Accurate Answer:"" -> I will just provide the direct answer.
+   ""Refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance."" -> Perfect.✅
+   Output Generation. 
+   [Done.] 
+   *(Note: I'll keep it strictly within the bounds of the context as instructed.)*
+   Output matches the final refined version.✅
+   [Proceeds]
+</think>
+
+Based on our official policy, refunds for transactions made via QR Code or Virtual Account will be processed within 1 business day (24 hours) and credited directly to your in-app wallet balance.","- Faithfulness: 1
+- Answer Relevance: 1
+- Instruction Compliance: 1
+- Rationale: The response directly mirrors the context, correctly states the 1‑business‑day refund timeline for QR Code and Virtual Account payments, and contains no extraneous or prohibited content."
+TC-02,Direct Fact Retrieval,How many failed PIN attempts will cause an account to be suspended?,5 consecutive failed PIN or password attempts.,"
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Question:** How many failed PIN attempts will cause an account to be suspended?
+   - **Role:** Official Customer Support AI assistant
+   - **Constraint:** Answer strictly based ONLY on the provided context. If not found, state explicitly: ""This information is not available in our official knowledge base."" Do NOT assume, infer, or hallucinate.
+
+2.  **Scan Context for Keywords:**
+   - Keywords: ""failed PIN attempts"", ""suspended"", ""account""
+   - Context section 2 says: ""User accounts will be automatically suspended temporarily after 5 consecutive failed PIN or password attempts.""
+
+3.  **Extract Answer:**
+   - The context explicitly states: 5 consecutive failed PIN or password attempts.
+
+4.  **Formulate Response:**
+   - Must be direct and strictly based on context.
+   - Draft: Based on our official knowledge base, user accounts will be automatically suspended temporarily after 5 consecutive failed PIN or password attempts.
+   - Check constraints: Matches context exactly. No external info. Directly answers the question.
+
+5.  **Final Output Generation:** (Keep it concise and aligned with the prompt's tone)
+   ""Based on our official knowledge base, an account will be automatically suspended temporarily after 5 consecutive failed PIN or password attempts.""✅
+   - Matches constraint perfectly. No extra fluff. Ready. 
+   - Self-Correction/Verification during thought: The prompt asks specifically about ""failed PIN attempts"". The context says ""5 consecutive failed PIN or password attempts."" I will state exactly that. All good.✅
+   - Output matches the final draft.✅
+   - Proceed. 
+   - Output Generation. 
+   - [Done] 
+   - *Self-Correction/Refinement during thought*: I should make sure it strictly follows the exact wording if possible, but it's fine to paraphrase slightly for clarity while staying strictly within context. The prompt says ""Helpful & Accurate Answer:"". I will just provide the direct answer.
+
+   Final: Based on our official knowledge base, an account will be automatically suspended temporarily after 5 consecutive failed PIN or password attempts.✅
+   Matches all constraints. Proceeds. 
+   Output Generation. 
+   [Output matches the final refined version]✅
+   *(Done.)*
+</think>
+
+Based on our official knowledge base, an account will be automatically suspended temporarily after **5 consecutive failed PIN or password attempts**.","- Faithfulness: 1
+- Answer Relevance: 1
+- Instruction Compliance: 1
+- Rationale: The response directly quotes the context, correctly states that 5 consecutive failed PIN (or password) attempts trigger a temporary suspension, and follows all given instructions."
+TC-03,Out-of-Domain / Hallucination Test,How can I request a refund for an international flight ticket?,This information is not available in our official knowledge base.,"
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Question:** ""How can I request a refund for an international flight ticket?""
+   - **Role:** Official Customer Support AI assistant
+   - **Constraint:** Answer strictly based ONLY on the provided context. If not found, explicitly state: ""This information is not available in our official knowledge base."" Do NOT assume, infer, or hallucinate.
+
+2.  **Analyze Context:**
+   - Refund requests must be submitted within 7 business days of item delivery or transaction processing.
+   - Transactions made via Virtual Account, Instant Bank Transfer, and QR Code will be refunded within 1 business day (24 hours) directly to the user's in-app wallet balance.
+   - Credit Card payments require 5 to 14 business days to reflect on the account, depending on the issuing bank.
+   - Initial transaction and payment processing fees are non-refundable if the cancellation is initiated by the buyer.
+
+3.  **Compare Question to Context:**
+   - The question asks specifically about requesting a refund for an *international flight ticket*.
+   - The context provides general refund policies & timelines (7 business days window, refund methods/timelines based on payment type, non-refundable fees for buyer-initiated cancellations).
+   - The context does *not* mention flight tickets, international flights, or specific steps on *how* to request a refund (e.g., via app, website, customer service).
+   - Therefore, the specific information requested is not in the context.
+
+4.  **Formulate Response (adhering to constraints):**
+   - Must explicitly state: ""This information is not available in our official knowledge base.""
+   - Can optionally add what *is* available in the context regarding refunds, but must strictly follow the constraint. The prompt says ""If the answer cannot be found in the context, explicitly state: 'This information is not available in our official knowledge base.'""
+   - I will stick strictly to the required phrase, possibly adding a brief note about the general refund policy provided, but the core requirement is the explicit statement.
+
+   Draft: This information is not available in our official knowledge base. However, our general refund policy states that refund requests must be submitted within 7 business days of transaction processing, and processing times vary by payment method. For specific steps regarding international flight tickets, please contact our support team directly. (Wait, the prompt says ""explicitly state: 'This information is not available in our official knowledge base.'"" I should just output that exact phrase to be safe, or combine it strictly.)
+
+   Let's stick strictly to the instruction: ""If the answer cannot be found in the context, explicitly state: 'This information is not available in our official knowledge base.'""
+
+   I will output exactly that, as adding extra info might violate the strict constraint. Actually, it's fine to just state the required phrase. I'll keep it concise.
+
+   Final check of the prompt: ""Answer the user's question strictly based ONLY on the provided context below. If the answer cannot be found in the context, explicitly state: ""This information is not available in our official knowledge base."" Do NOT assume, infer, or hallucinate external facts.""
+
+   The context does not mention flight tickets or how to request a refund. So the answer is the exact phrase. I will provide just that to be strictly compliant. Optionally, I can mention the general refund window from the context, but the prompt says if the answer cannot be found, explicitly state that phrase. I'll just output the phrase. To be helpful but compliant, I'll state the phrase and briefly note what the context does cover regarding refunds, but I'll prioritize the exact phrase.
+
+   Actually, the safest is just the exact phrase. I'll output: ""This information is not available in our official knowledge base."" as instructed. I can add a polite sign-off if needed, but strict compliance is key.
+
+   Let's craft it carefully.
+   ""This information is not available in our official knowledge base."" matches the requirement exactly. I will output that.✅
+   Wait, sometimes it's better to acknowledge the context's general refund policy while stating the specific info is missing. But the prompt says ""explicitly state: 'This information is not available in our official knowledge base.'"" I will just output that exact sentence. It's safer.
+   I'll produce exactly that.✅
+   Final Answer Generation. 
+   ""This information is not available in our official knowledge base."" (I'll keep it exactly as requested.) 
+   Self-Correction/Refinement during thought: The prompt says ""Helpful & Accurate Answer:"". I will just provide the exact required phrase. It's standard for these strict RAG prompts. I'll output exactly that.✅
+   Proceed. 
+   Output: This information is not available in our official knowledge base. (I can add a brief note about the general policy if needed, but strict compliance is better. I'll stick to the exact phrase.) 
+   Actually, I'll just output the exact phrase as instructed. No extra fluff.✅
+   Final: This information is not available in our official knowledge base. 
+   [Done] 
+   *Self-Correction/Verification during generation prep*: 
+   The prompt says ""If the answer cannot be found in the context, explicitly state: ""This information is not available in our official knowledge base.""""
+   I will output exactly that. It's compliant.✅
+   Output matches.✅
+   Proceeds. 
+   [Output Generation] -> ""This information is not available in our official knowledge base."" (I'll format it cleanly) 
+   All constraints met.✅
+   Final Check of the prompt: ""Answer the user's question strictly based ONLY on the provided context below."" -> Context has no info on flight tickets or how to request. So the fallback phrase is mandatory. 
+   Ready. 
+   Output matches response.✅
+   [Output] This information is not available in our official knowledge base. 
+   (Note: I'll just output the exact phrase as requested.) 
+   *Self-Correction/Note during thought*: Sometimes these prompts expect just the phrase. I will provide exactly that. No extra text. 
+   Final Answer: This information is not available in our official knowledge base.✅
+   Proceeds. 
+   [Output Generation] (done)
+   *Output Generation* (matches the final answer)
+   ""This information is not available in our official knowledge base."" (I'll output exactly this)
+   [Done] 
+   *(Note: I'm overthinking a simple constraint. The output is straightforward.)*
+   Final Output Generation.✅
+   [Output] This information is not available in our official knowledge base. 
+   *(Proceeds)*
+</think>
+
+This information is not available in our official knowledge base.","- Faithfulness: 1
+- Answer Relevance: 1
+- Instruction Compliance: 1
+- Rationale: The response correctly states that the requested information is not in the knowledge base, matching the ground truth and adhering to the given constraints."
+TC-04,Constraint Verification,Are initial processing fees refunded if a customer cancels the order?,Initial transaction and processing fees are non-refundable if initiated by the buyer.,"
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Question:** The user asks: ""Are initial processing fees refunded if a customer cancels the order?""
+2.  **Analyze Context:**
+   - Refund Policies & Timelines: Refund requests within 7 business days. Refunds for Virtual Account, Instant Bank Transfer, QR Code go to in-app wallet within 1 business day.
+   - Handling Pending & Failed Transactions: Pending > 30 mins triggers gateway query. Failed orders with deducted funds get auto-reversal/full amount credit within 3 business days.
+   - *Missing Information:* The context does not mention ""initial processing fees"" or whether they are refunded upon cancellation.
+3.  **Apply Constraints:** 
+   - Answer strictly based ONLY on the provided context.
+   - If not found, explicitly state: ""This information is not available in our official knowledge base.""
+   - Do NOT assume, infer, or hallucinate.
+4.  **Formulate Response:** Since the context doesn't mention processing fees or their refund policy, I must use the exact required phrase.
+   - Draft: This information is not available in our official knowledge base.
+5.  **Check Constraints:** Matches exactly. No extra info. Strictly follows instructions. Ready.✅
+</think>
+
+This information is not available in our official knowledge base.","- Faithfulness: 0  
+- Answer Relevance: 0  
+- Instruction Compliance: 1  
+- Rationale: The bot incorrectly states the information is unavailable, contradicting the ground truth that processing fees are non‑refundable."
